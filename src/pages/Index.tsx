@@ -2,6 +2,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 import logo from "@/assets/logo.png";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import FeatureCards from "@/components/FeatureCards";
+import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import { MessageCircle } from "lucide-react"; // Sugestão: use lucide para o ícone flutuante
 
@@ -54,10 +55,13 @@ const Index = () => {
             Receba hoje mesmo, em embalagem 100% discreta.
           </p>
 
-          {/* Cards de Benefícios (Mantenha-os curtos) */}
+          {/* Cards de Benefícios */}
           <div className="pt-4 w-full">
             <FeatureCards />
           </div>
+
+          {/* Seção de Avaliações */}
+          <Testimonials />
 
           {/* CTA Principal Reforçado */}
           <div className="pt-8 flex flex-col items-center gap-4">
