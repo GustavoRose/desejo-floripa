@@ -1,10 +1,10 @@
-import { Lock, Truck, Heart } from "lucide-react";
+import { Lock, Truck, Smile } from "lucide-react";
 
 const features = [
   {
     icon: Truck,
-    title: "Entrega Rápida",
-    description: "Receba em casa com agilidade",
+    title: "Entrega no Mesmo Dia",
+    description: "Na Grande Florianópolis",
   },
   {
     icon: Lock,
@@ -12,9 +12,9 @@ const features = [
     description: "Embalagem discreta e sem identificação",
   },
   {
-    icon: Heart,
+    icon: Smile,
     title: "Sem Julgamentos",
-    description: "Atendimento acolhedor e respeitoso",
+    description: "Atendimento especializado e acolhedor",
   },
 ];
 
