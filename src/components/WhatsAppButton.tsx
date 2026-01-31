@@ -3,9 +3,10 @@ import { MessageCircle } from "lucide-react";
 interface WhatsAppButtonProps {
   phoneNumber: string;
   message?: string;
+  label?: string;
 }
 
-const WhatsAppButton = ({ phoneNumber, message = "Olá! Vim do Instagram e gostaria de saber mais sobre os produtos." }: WhatsAppButtonProps) => {
+const WhatsAppButton = ({ phoneNumber, message = "Olá! Vim do Instagram e gostaria de saber mais sobre os produtos.", label = "Fale Conosco no WhatsApp" }: WhatsAppButtonProps) => {
   const handleClick = () => {
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
@@ -23,7 +24,7 @@ const WhatsAppButton = ({ phoneNumber, message = "Olá! Vim do Instagram e gosta
                  shadow-[0_10px_40px_-10px_hsl(142_70%_40%/0.5)]"
     >
       <MessageCircle className="w-6 h-6 transition-transform duration-300 group-hover:scale-110" />
-      <span className="font-body tracking-wide">Fale Conosco no WhatsApp</span>
+      <span className="font-body tracking-wide">{label}</span>
     </button>
   );
 };
