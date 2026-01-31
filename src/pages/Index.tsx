@@ -11,7 +11,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-background relative selection:bg-coral/30">
-      
+      <link rel="preload" as="image" href="/assets/hero-bg.jpg">
       {/* Background Otimizado - Fixed para não quebrar no scroll do mobile */}
       <div className="fixed inset-0 z-0 pointer-events-none">
         <img
