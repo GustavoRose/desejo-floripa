@@ -15,40 +15,40 @@
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 340 60% 45%;
+    --primary: 14 90% 58%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 340 30% 15%;
+    --secondary: 14 40% 12%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 340 20% 12%;
+    --muted: 14 20% 10%;
     --muted-foreground: 0 0% 70%;
 
-    --accent: 35 70% 60%;
+    --accent: 14 90% 58%;
     --accent-foreground: 0 0% 5%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 340 30% 20%;
-    --input: 340 30% 20%;
-    --ring: 340 60% 45%;
+    --border: 14 30% 18%;
+    --input: 14 30% 18%;
+    --ring: 14 90% 58%;
 
     --radius: 0.5rem;
 
-    /* Custom tokens */
-    --rose-gold: 35 70% 60%;
-    --wine: 340 60% 25%;
-    --deep-wine: 340 70% 15%;
-    --blush: 340 40% 75%;
-    --champagne: 40 50% 85%;
+    /* Custom tokens - Cheiro de Rosa brand */
+    --coral: 14 90% 58%;
+    --coral-light: 14 85% 70%;
+    --coral-dark: 14 80% 45%;
+    --warm-black: 0 0% 5%;
+    --soft-white: 30 20% 95%;
 
-    --gradient-luxury: linear-gradient(135deg, hsl(340 60% 25%) 0%, hsl(0 0% 5%) 50%, hsl(340 70% 15%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(35 70% 50%) 0%, hsl(40 60% 70%) 50%, hsl(35 70% 50%) 100%);
+    --gradient-luxury: linear-gradient(135deg, hsl(14 40% 12%) 0%, hsl(0 0% 5%) 50%, hsl(14 30% 8%) 100%);
+    --gradient-coral: linear-gradient(135deg, hsl(14 90% 58%) 0%, hsl(20 85% 65%) 50%, hsl(14 90% 58%) 100%);
     --gradient-cta: linear-gradient(135deg, hsl(142 70% 40%) 0%, hsl(142 60% 35%) 100%);
 
-    --shadow-glow: 0 0 40px hsl(340 60% 45% / 0.3);
-    --shadow-gold: 0 0 30px hsl(35 70% 60% / 0.4);
+    --shadow-glow: 0 0 40px hsl(14 90% 58% / 0.3);
+    --shadow-coral: 0 0 30px hsl(14 90% 58% / 0.4);
 
     --font-display: 'Cormorant Garamond', serif;
     --font-body: 'Montserrat', sans-serif;
@@ -76,8 +76,8 @@
 }
 
 @layer utilities {
-  .text-gradient-gold {
-    background: var(--gradient-gold);
+  .text-gradient-coral {
+    background: var(--gradient-coral);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

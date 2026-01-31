@@ -47,11 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        wine: "hsl(var(--wine))",
-        "deep-wine": "hsl(var(--deep-wine))",
-        "rose-gold": "hsl(var(--rose-gold))",
-        blush: "hsl(var(--blush))",
-        champagne: "hsl(var(--champagne))",
+        coral: {
+          DEFAULT: "hsl(var(--coral))",
+          light: "hsl(var(--coral-light))",
+          dark: "hsl(var(--coral-dark))",
+        },
+        "soft-white": "hsl(var(--soft-white))",
       },
       fontFamily: {
         display: ["var(--font-display)", "serif"],
