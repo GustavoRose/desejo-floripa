@@ -38,7 +38,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-center text-muted-foreground text-xs font-body tracking-wide">
-          © 2026 Cheiro de Rosa Sex Shop e Lingerie | CNPJ: 36.312.574/0001-42
+          © 2026 Cheiro de Rosa Lingerie | CNPJ: 36.312.574/0001-42
         </p>
       </div>
     </footer>

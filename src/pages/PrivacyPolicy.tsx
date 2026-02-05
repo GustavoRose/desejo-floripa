@@ -12,11 +12,11 @@ const PrivacyPolicy = () => {
           </p>
 
           <section>
-            <h2 className="font-display text-xl font-semibold text-foreground mb-3">
-              1. Informações que Coletamos
-            </h2>
-            <p>
-              A Cheiro de Rosa (CNPJ: 36.312.574/0001-42) coleta informações que você nos fornece diretamente, 
+          <h2 className="font-display text-xl font-semibold text-foreground mb-3">
+            1. Informações que Coletamos
+          </h2>
+          <p>
+            A Cheiro de Rosa Lingerie (CNPJ: 36.312.574/0001-42) coleta informações que você nos fornece diretamente,
               como nome, telefone e endereço de entrega quando entra em contato conosco via WhatsApp para 
               realizar uma compra.
             </p>
@@ -101,7 +101,7 @@ const PrivacyPolicy = () => {
             </p>
             <ul className="list-none space-y-1 mt-2">
               <li><strong>WhatsApp:</strong> (48) 98804-8880</li>
-              <li><strong>Razão Social:</strong> Cheiro de Rosa Sex Shop e Lingerie</li>
+              <li><strong>Razão Social:</strong> Cheiro de Rosa Lingerie</li>
               <li><strong>CNPJ:</strong> 36.312.574/0001-42</li>
               <li><strong>Localização:</strong> Grande Florianópolis, SC</li>
             </ul>

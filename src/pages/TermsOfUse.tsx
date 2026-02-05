@@ -38,7 +38,7 @@ const TermsOfUse = () => {
               3. Produtos e Serviços
             </h2>
             <p>
-              A Cheiro de Rosa comercializa produtos de sex shop e lingerie. Nos reservamos o direito de:
+              A Cheiro de Rosa comercializa produtos íntimos e lingerie. Nos reservamos o direito de:
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2">
               <li>Modificar ou descontinuar produtos sem aviso prévio</li>
@@ -116,7 +116,7 @@ const TermsOfUse = () => {
             </h2>
             <ul className="list-none space-y-1">
               <li><strong>WhatsApp:</strong> (48) 98804-8880</li>
-              <li><strong>Razão Social:</strong> Cheiro de Rosa Sex Shop e Lingerie</li>
+              <li><strong>Razão Social:</strong> Cheiro de Rosa Lingerie</li>
               <li><strong>CNPJ:</strong> 36.312.574/0001-42</li>
               <li><strong>Localização:</strong> Grande Florianópolis, SC</li>
             </ul>
